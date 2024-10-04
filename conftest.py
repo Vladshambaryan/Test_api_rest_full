@@ -1,11 +1,12 @@
 import pytest
 
-from test_api_rest_full.endpoints.get_gadget import GetOneGadget
-from test_api_rest_full.endpoints.get_gadget import GetAllGadgets
-from test_api_rest_full.endpoints.create_gadget import CreateGadget
-from test_api_rest_full.endpoints.update_gadget import UpdateGadget
-from test_api_rest_full.endpoints.delete_gadget import DeleteGadget
-from test_api_rest_full.endpoints.update_gadget_item import UpdateGadgetItem
+
+from endpoints.get_gadget import GetOneGadget
+from endpoints.get_gadget import GetAllGadgets
+from endpoints.create_gadget import CreateGadget
+from endpoints.update_gadget import UpdateGadget
+from endpoints.delete_gadget import DeleteGadget
+from endpoints.update_gadget_item import UpdateGadgetItem
 
 
 @pytest.fixture()

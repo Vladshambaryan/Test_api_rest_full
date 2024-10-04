@@ -1,6 +1,8 @@
 import requests
 import allure
-from test_api_rest_full.endpoints.base_endpoint import Endpoint
+
+
+from endpoints.base_endpoint import Endpoint
 
 
 class UpdateGadget(Endpoint):
